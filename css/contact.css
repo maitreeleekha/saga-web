@@ -1,0 +1,12 @@
+.contact-item{
+    text-align: center;
+    font-size: 1em;
+}
+
+.contact-item i{
+    margin: 5px;
+}
+
+body{
+    background: whitesmoke;
+}

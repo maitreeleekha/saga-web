@@ -1,0 +1,52 @@
+
+
+.images>img{
+   /* transition: all .9s ease-in-out;*/
+    width: 40%;
+    height: 40% !important;
+    margin: 2% auto;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+/*.images>img:hover{transform: scale(1.5);}*/
+
+.images{
+    display: flex;
+    flex-direction: row;
+}
+
+/*#infrastructure, #products,#clients{
+    margin: 6%;
+}*/
+
+#mainAboutDiv{
+   /* font-size: 1.3em;*/
+
+    padding: 3%;
+    padding-top: 1%;
+    text-align: justify;
+}
+#para1 p{
+    margin: 0px !important;
+}
+
+@media screen and (max-width:767px){
+.images>img{
+    width:70%;
+}
+}
+@media screen and (max-width:600px){
+    .images{
+        flex-direction: column;
+    }
+
+    #mainAboutDiv{
+         padding: 9%;
+         padding-top: 1%;
+         text-align: justify;
+     }
+}
+
+.nav-small-collapse>li , .nav-ul>li{
+    font-size: 1em;
+}

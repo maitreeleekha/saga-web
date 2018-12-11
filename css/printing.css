@@ -1,0 +1,180 @@
+
+
+.stretch-image img{
+   width: 100vw;
+   min-width: 0px !important;
+   height: 100vh;
+   position:center center;
+   top: 0px;
+   
+}
+
+.overlay{
+    width:100vw;
+    height:100vh;
+    position:absolute;
+    top:0px;
+    background: rgba(0, 0, 0, 0.725);
+}
+
+.heading{
+    position: relative;
+    top:50%;
+}
+
+.intro-head{
+    font-size: 5em;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.intro-tag-line{
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    font-style: italic
+}
+
+.content{
+    margin-top:5%;
+    margin-bottom:5%;
+    text-align: justify;
+    font-size: 1.4em;
+}
+
+.panes{
+    text-align: center;
+    margin:5% 0px;
+}
+
+.icon-panel{
+    margin-top:10%;
+    margin-bottom:10%;
+    font-size: 2em;
+    color: #cf5022c5;
+}
+
+
+.panes:hover, .panes:active{
+    color: #cf5022;
+   
+}
+
+.panes i{
+    font-size:5em;
+    margin:20px;
+    color: #cf5022cc;
+}
+
+.panes i:hover{
+    color: #cf5022;
+}
+
+.pane-button{
+
+    outline-color: none;
+    border:0px;
+    background: transparent;
+}
+
+.pane-button:focus{
+    outline-color: none;
+    outline: none;
+}
+
+.link-headings{
+    font-weight: bolder;
+    font-size: 3em;
+    color: #cf5022;
+
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .image-overlay-div:hover .image {
+    opacity: 0.1;
+  }
+  
+  .image-overlay-div:hover .middle {
+    opacity: 1;
+  }
+
+.text {
+    color: #cf5022;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  .image-overlay-div{
+      margin-bottom:100px;
+  }
+
+.client-images img, .product-images img{
+    width:100px;
+    height: 150px;;
+}
+
+@media screen and (max-width:780px){
+    .heading{
+        position: relative;
+        top:35%;
+    }
+}
+
+@media screen and (max-width:400px){
+    .stretch-image img{
+        max-width: 100%;
+        min-height: 100vh;
+        position:center center;
+        background-size: cover;
+
+        
+     }
+     .overlay{
+        max-width: 100%;
+        min-height: 100vh;
+        background: rgba(0, 0, 0, 0.725);
+    }
+
+    .heading{
+        position: relative;
+        top:30%;
+    }
+    
+    .intro-tag-line{
+        display: none;
+    }
+
+    .content{
+        margin-top:15%;
+        margin-bottom:15%;
+        font-size: 1.4em;
+    }
+
+    
+.client-images img{
+    width:75px;
+    height: 150px;;
+}
+
+}

@@ -1,0 +1,244 @@
+@font-face {
+    font-family: birthofahero;
+    src: url(fonts\boah\BIRTHOFAHERO.eot),
+        url(fonts\boah\BIRTHOFAHERO.ttf),
+        url(fonts\boah\BIRTHOFAHERO.woff);
+}
+
+body{
+    width: 100vw;
+}
+
+hr{
+    text-align: left;
+}
+#phoneLogo img{
+    width:20%;
+    min-width: 175px;
+    margin: 0px auto;
+    display: block;
+}
+#phoneLogo{
+    padding: 10px;
+}
+
+.smallImages{
+    width: 75%;
+    height: 60%;
+    max-width: 270px;
+    max-height: 175px;
+}
+
+.who{
+    margin-top: 20%;
+}
+.about-text p{
+    text-align: justify;
+}
+#about,#work,#infra, #chevinfra, #infrakhanna {
+    background: #f6f6f6;
+}
+
+@media screen and (min-width:300px) and (max-width: 767px){
+
+    .brandLabel{
+        font-size: 1em;
+        line-height: 50px;
+        }
+#intro{
+    display: none;
+}
+#phoneLogo{
+    display: block;
+}
+#about,#work,#infra, #chevinfra, #infrakhanna {
+    padding:20px;;
+    background: #f6f6f6;
+}
+#about img,#work img,#infra img{
+    margin: 10px auto;
+}
+}
+#about a,#work a,#infra a, #chevinfra a, #infrakhanna a{
+    margin: 5px auto;
+    display: block;
+    width: max-content;
+    min-width: 50px;
+
+}
+
+    .quote{
+        color: white;
+        margin: 10%;
+        font-size:5em;
+    }
+
+    #services>div{
+        position: relative;
+        top: 0px !important;
+        left: 0px !important;
+        padding: 40px 0px;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.555);
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+    }
+
+    @media screen and (min-width:300px) and (max-width:600px){
+        .quote{
+            font-size: 3em;        }
+    }
+@media screen and (min-width:1000px){
+    .leftLine{
+       border-left:dotted grey thin;
+    }
+}
+@media screen and (min-width:768px){
+    #phoneLogo img{
+        display: none;
+    }
+    #phoneLogo{
+        height: 0px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:981px){
+    #about{
+        
+    }
+    #about img,#work img,#infra img, #chevinfra img, #infrakhanna img{
+        margin: 0px auto;
+    }
+}
+
+@media screen and (min-width:1000px){
+    #about,#work,#infra, #chevinfra, #infrakhanna{
+        padding:5%;
+    }
+}
+
+div.companyLogos1{
+    display: flex;
+    position: absolute;
+    margin: 0px auto;
+    bottom: -5px;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+}
+div.companyLogos2{
+    display: flex;
+    position: absolute;
+    right: 50px;
+    bottom: 20px;
+    
+}
+div.companyLogos1>img, div.companyLogos2>img {
+    width: 150px !important;
+    height: 150px !important;
+    margin: 25px auto;
+    opacity: 0;
+}
+
+#ci1, #ci2{
+
+    width:210px !important;
+}
+
+#ci4{
+    width: 170px !important;
+    height: 170px !important;
+}
+.sideLogo{
+    opacity: 0;
+}
+
+#whatwedo{
+
+    /*padding: 140px 0;*/
+	background: url(../img/factory2/tech\ back.png);
+    background-color: rgba(0, 0, 0, 0.733);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#mahindrapanel{
+    background: url(../img/mahindra/marazzo.jpg);
+    background-color: rgba(0, 0, 0, 0.733);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#truckbuspanel{
+    background: url(../img/factory2/thar\ bg.jpg);
+    background-color: rgba(0, 0, 0, 0.733);
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+#chevy{
+    background: url(../img/factory2/chevytrailblazer1.jpg);
+    background-color: rgba(0, 0, 0, 0.733);
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+#khannapanel{
+    background: url(../img/factory2/godown.jpg);
+    background-color: rgba(0, 0, 0, 0.733);
+	background-size: cover;
+	background-attachment: fixed;
+}
+#whatwedo>div, #mahindrapanel>div, #truckbuspanel>div, #chevy>div, 
+#khannapanel>div{
+    position: relative;
+    top: 0px !important;
+    left: 0px !important;
+    padding: 20px 0px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.555);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.what_we_do_buttons{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin: 2px auto;
+    align-content: center;
+}
+
+.what_we_do_buttons>a{
+width: 20%;
+margin:2.5%;
+background: none;
+outline: none;
+border: none;
+font-size: 1.5em;
+color: white;
+text-align: center;
+}
+
+
+.what_we_do_buttons>a>i{
+    font-size: 2.5em;
+}
+
+.what_we_do_buttons>a:hover, .what_we_do_buttons>a:focus{
+    color:  #cf5022;
+}
+
+@media screen and (max-width:500px){
+    .what_we_do_buttons>a{
+        background: none;
+        outline: none;
+        border: none;
+        font-size: 0.8em;
+        color: white;
+        }
+}
