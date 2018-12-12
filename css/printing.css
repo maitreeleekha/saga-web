@@ -94,7 +94,7 @@
     opacity: 1;
     display: block;
     width: 100%;
-    height: auto;
+
     transition: .5s ease;
     backface-visibility: hidden;
   }
@@ -177,4 +177,37 @@
     height: 150px;;
 }
 
+}
+
+.address{
+    width: 100%;
+    /*background: rgba(0, 0, 0, 0.755);*/
+    background: #cf5022ce;
+    color: white;
+    padding: 2%;
+}
+
+.address>div{
+    width: 50%;
+    color: white;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.address h4{
+    color: white;;
+}
+
+iframe{
+    width:50%;
+    display: block;
+    margin:20px auto;
+    margin-top:40px;
+    margin-bottom:0px;
+}
+
+@media screen and (max-width:500px){
+    iframe{
+        width:95%;
+    }
 }

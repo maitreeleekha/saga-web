@@ -224,6 +224,12 @@ width: 100%;
 }
 
 
+.address{
+    color:white !important;
+    padding: 2%;
+}
 
 
-
+.address h4{
+    color: white;
+}

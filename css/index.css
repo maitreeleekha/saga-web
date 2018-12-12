@@ -35,7 +35,7 @@ hr{
 .about-text p{
     text-align: justify;
 }
-#about,#work,#infra, #chevinfra, #infrakhanna {
+#about,#work,#infra, #chevinfra, #infrakhanna, #infratruck {
     background: #f6f6f6;
 }
 
@@ -51,7 +51,7 @@ hr{
 #phoneLogo{
     display: block;
 }
-#about,#work,#infra, #chevinfra, #infrakhanna {
+#about,#work,#infra, #chevinfra, #infrakhanna,  #infratruck {
     padding:20px;;
     background: #f6f6f6;
 }
@@ -59,7 +59,7 @@ hr{
     margin: 10px auto;
 }
 }
-#about a,#work a,#infra a, #chevinfra a, #infrakhanna a{
+#about a,#work a,#infra a, #chevinfra a, #infrakhanna a,  #infratruck a{
     margin: 5px auto;
     display: block;
     width: max-content;
@@ -107,13 +107,13 @@ hr{
     #about{
         
     }
-    #about img,#work img,#infra img, #chevinfra img, #infrakhanna img{
+    #about img,#work img,#infra img, #chevinfra img, #infrakhanna img,  #infratruck img{
         margin: 0px auto;
     }
 }
 
 @media screen and (min-width:1000px){
-    #about,#work,#infra, #chevinfra, #infrakhanna{
+    #about,#work,#infra, #chevinfra, #infrakhanna,  #infratruck{
         padding:5%;
     }
 }
@@ -214,8 +214,8 @@ div.companyLogos1>img, div.companyLogos2>img {
 }
 
 .what_we_do_buttons>a{
-width: 20%;
-margin:2.5%;
+width: 16%;
+margin:2%;
 background: none;
 outline: none;
 border: none;

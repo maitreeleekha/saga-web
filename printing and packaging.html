@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SAGA</title>
+    <title>Shaktiman Bio Agro Pvt. Ltd.</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -59,7 +59,7 @@
             <li><a href="mahindra AD.html">Mahindra Automotive Division</a></li>
             <li><a href="mahindra truck bus.html">Mahindra Truck Bus Division</a></li>
           </div>
-          <li><a href="chevrolet.html">Chevrolette Service Plus</a></li>
+          <li><a href="chevrolet.html">Chevrolet Service Plus</a></li>
           <li><a href="printing and packaging.html">Printing and Packaging</a></li>
           <li><a href="khannapaper.html">Khanna Paper</a></li>
           <li><a href="contact.html">Contact Us</a></li>
@@ -69,7 +69,7 @@
           <li><a href="about.html">About Us</a></li>
           <li><a href="mahindra AD.html">Mahindra Automotive Division</a></li>
           <li><a href="mahindra truck bus.html">Mahindra Trucks and Buses</a></li>
-          <li><a href="chevrolet.html">Chevrolette Service Plus</a></li>
+          <li><a href="chevrolet.html">Chevrolet Service Plus</a></li>
           <li><a href="printing and packaging.html">Printing and Packaging</a></li>
           <li><a href="khannapaper.html">Khanna Paper</a></li>
           <li><a href="contact.html">Contact Us</a></li>
@@ -146,11 +146,11 @@
 
     <div >
         <div class="image-overlay-div col-md-3">
-            <img src="img/factory2/13.jpeg"   class="image" style="width:100%">
+            <img id="newmachine" src="img/factory2/4.jpeg"   class="image" style="width:100%">
             
         </div>
         <div class="image-overlay-div col-md-3">
-            <img src="img/factory2/11.jpeg"   class="image" style="width:100%">
+            <img id="oldmachine" src="img/factory2/11.jpeg"   class="image" style="width:100%">
            
         </div>
         <div class="image-overlay-div col-md-3">
@@ -172,7 +172,7 @@
 
     <div  class="product-images">
         <div class="image-overlay-div col-md-3">
-            <img src="img/factory2/mono cartons.jpg"   class="image" style="width:100%">
+            <img src="img/factory2/printed-mono-carton-250x250.jpg"   class="image" style="width:100%">
             <div class="middle">
                 <div class="text">Mono Cartons</div>
             </div>
@@ -191,7 +191,7 @@
         </div>
 
         <div class="image-overlay-div col-md-3">
-            <img src="img/factory2/master cartons.png"   class="image" style="width:100%">
+            <img src="img/factory2/mono cartons.jpg"   class="image" style="width:100%">
             <div class="middle">
                 <div class="text">Master Cartons</div>
             </div>
@@ -338,13 +338,25 @@
             
         </div>
     </div>
+<br>
+
+<iframe width="871" height="490" src="https://www.youtube.com/embed/QaIAUThnHNc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br>
+<br>
+<div class="address">
+<div>
+ <h5>Address:</h5><h4>Shaktiman Bio Agro Pvt. Ltd. <br>E-12 Industrial Area, Yamuna Nagar,<br> Haryana (135001), <br> 9306753101</h4>
+</div>
+</div>
+<br>
 
     <div id="footer">
         <div class="container">
           <!--<p>Copyright &copy; Modus. Designed by <a href="http://www.templatewire.com" rel="nofollow">TemplateWire</a></p>-->
           <a href="https://www.google.com/maps?q=30.130229949951172,77.2785415649414&z=17&hl=en">
             <i class="fa fa-map-marker" aria-hidden="true"></i> Find Us </a> |
-          <i class="fa fa-phone" aria-hidden="true"></i> 9315066000, 9315066065 |
+          <i class="fa fa-phone" aria-hidden="true"></i> 9416022014, 9306753101 |
           <i class="fa fa-envelope"></i> info@saga.co.in
     
         </div>
@@ -375,6 +387,20 @@
     ================================================== -->
 <script type="text/javascript" src="js/main.js"></script>
 <script type="text/javascript" src="js/counter.js"></script>
+<script type="text/javascript">
 
+        window.onload = function(){
+            h1 = document.getElementById('oldmachine').height;
+            document.getElementById('newmachine').height = h1
+            console.log(h1, document.querySelector('newmachine'))
+        }
+    
+        window.onresize = function(){
+            h1 = document.getElementById('oldmachine').height;
+            document.getElementById('newmachine').height = h1
+            console.log(h1, document.querySelector('newmachine'))
+        }
+     
+    </script>
 
 </html>
